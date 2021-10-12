@@ -1,0 +1,116 @@
+/* -- Header --*/
+.text {
+  font-size:28px;
+  font-family:helvetica;
+  font-weight:bold;
+  color:#71d90b;
+  text-transform:uppercase;
+}
+.parpadea {
+  
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+button{
+    /*min-height: 181px;
+    min-width: 90px;*/
+    min-height: 160px;
+    max-height: 160px;
+    min-width: 90px;
+    max-width: 90px;
+}
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	/*background: #428BCA;*/
+    background: #40C7FF;
+	color: #0fb9ff;
+	padding: 20px 0;
+
+}
+
+.jumbotron .titulo-all {
+	/*font-size: 100px*/
+}
+
+.navbar-form2 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin-right: -15px;
+  }
+
+  /* -- POST -- */
+    .main {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .post {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #999;
+    }
+
+    .post .post-tittle a {
+        color:#333;
+    }
+
+    .post .thumb {
+        margin-right: 10px;
+        width: 40%; 
+    }
+
+    .fondo-login {
+        /*background-color: #428BCA;]*/
+         background-image: url("../images/fondo.jpg");
+         background-color: #428BCA;
+    }
+
+    .stylebtn {
+        width:100%;
+    }
+
+    .letraLogin{
+        color:#fff;
+    }
+
+    .fondo-login2{
+        background-color: #232323;
+    }
+
